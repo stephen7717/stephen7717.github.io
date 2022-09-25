@@ -1,0 +1,32 @@
+.container {
+    width: 850px;
+    margin: auto;
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 1em;
+    display:inline-block;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .container {
+        width: 300px;
+        margin: auto;
+        border: 2px solid blue;
+        padding: 1em;
+    }
+}
+@media only screen and (min-width: 1050px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+        border: 2px solid blue;
+        padding: 1em;
+    }
+}
